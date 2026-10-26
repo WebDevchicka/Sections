@@ -1,0 +1,57 @@
+/* Reset margins and set full page height */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+/* Main container holding the sections */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Top section spanning the top 3rd */
+.top-section {
+    height: 33.33vh;
+    background-color: #4a90e2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+/* Bottom row wrapper for the 3 smaller sections */
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    height: 66.67vh; /* Fills the remaining 2/3 of the page */
+}
+
+/* Common style for the three bottom columns */
+.column {
+    flex: 1; /* Distributes width equally (33.33% each) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Unique background colors to differentiate the columns */
+.left-col {
+    background-color: #50e3c2;
+}
+.center-col {
+    background-color: #b8e986;
+    color: #333;
+}
+.right-col {
+    background-color: #f5a623;
+}
