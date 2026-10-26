@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    border-color: #333;
 }
 
 /* Top section spanning the top 3rd */
@@ -42,6 +43,7 @@ body {
     align-items: center;
     font-size: 1.5rem;
     color: white;
+    border-color:  red;
 }
 
 /* Unique background colors to differentiate the columns */
